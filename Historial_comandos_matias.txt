@@ -1,0 +1,58 @@
+su
+sudo
+sudo apt install terminator
+ls repogit
+ls repogit/
+ls TP_AySO
+sucho
+sudo
+su
+sudo ls TP_AySO
+cd TP_AySO
+cd repogit/
+cd TP_AySO/
+ls -l
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release
+clear
+grep -i Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+clear
+echo “Usuario=$(whoami) > datos?usuario.txt
+echo “Usuario=$(whoami) > datos“Usuario=$(whoami)�usuario.txt
+echo “Usuario=$(whoami)” 
+echo "Usuario=$(whoami)=$(whoami)" > datos_usuario.txt
+git add .
+got config  --global user.email "matiasmorales.e.b@gmail.com"
+git config  --global user.email "matiasmorales.e.b@gmail.com"
+git config  --global user.name "MatiasMorales27"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+ls cpuinfo
+ls -l
+grep "model name" /proc/cpuinfo | head -n1 >> archivo_cpuinfo.txt
+git add archivo_cpuinfo.txt
+git commit -m "feat: Añadiendo información de CPU"
+gigigigiclear
+clear
+gigrep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenado"
+echo "tcpdump" > comando_dump_net
+echo "man -k traffic" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF >> README.md
+Alumno: matias_morales
+División: 314
+Turno: noche
+EOF
+
+git add README.md
+git commit -m "docs: Agregada información del alumno"
+history -a
